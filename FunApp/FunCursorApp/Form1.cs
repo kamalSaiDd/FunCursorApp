@@ -51,13 +51,13 @@ namespace WinFormsApp1
 
                 if (resetFlag)
                 {
-                    x = xCurrentPosition - 5;
-                    y = yCurrentPosition - 5;
+                    x = xCurrentPosition - 15;
+                    y = yCurrentPosition - 15;
                 }
                 else
                 {
-                    x = xCurrentPosition + 5;
-                    y = yCurrentPosition + 5;
+                    x = xCurrentPosition + 15;
+                    y = yCurrentPosition + 15;
                 }
 
                 Cursor.Position = new Point(x, y);
